@@ -1,0 +1,20 @@
+Package: abcotvthemes
+Title: ggplot themes for ABC Owned Television Stations
+Version: 0.0.0.9000
+Authors@R: 
+    person("Lindsey", "Feingold", , "lindsey.p.feingold@abc.com", role = c("aut", "cre"))
+Description: This package helps create ggplot graphics in the style used by the ABC Owned Television Stations data team.
+Depends: R (>= 3.0.0)
+Imports:
+    ggplot2,
+    ggthemes,
+    ggtext,
+    tidyverse,
+    extrafont
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
