@@ -4,7 +4,7 @@
 \alias{theme_abcotv}
 \title{Add ABC OTV theme to ggplot graphic}
 \usage{
-theme_abcotv()
+theme_abcotv(base_size = 12, base_family = base)
 }
 \description{
 This function adds the ABC OTV theme to ggplot graphics.
@@ -14,4 +14,5 @@ library(tidyverse)
 library(ggtext)
 chart <- ggplot(mtcars, aes(x=wt, y=mpg)) + geom_point() + labs(title = "A headline about dogs and cats", subtitle = "Some serious data about how dogs are better") + theme_abcotv()
 }
+\keyword{internal}
 \keyword{theme_abcotv}
